@@ -1,16 +1,14 @@
 import CodeContainer from "@/components/about-me/code-container";
-import SideNav from "@/components/about-me/side-nav";
-import clsx from "clsx";
-import { Fira_Code } from "next/font/google";
-const firaCode = Fira_Code({ subsets: ["latin"] });
-export default function RootLayout({
+import ContactSideNav from "@/components/contact/contact-side-nav";
+
+export default function Layout({
     children,
 }: Readonly<{
     children: React.ReactNode;
 }>) {
     return (
         <section className='h-full flex flex-row'>
-            <SideNav />
+            <ContactSideNav />
             <div className="flex-grow">
                 {children}
             </div>
