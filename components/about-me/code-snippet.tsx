@@ -22,10 +22,11 @@ function CodeSnippet({ snippet }: { snippet: string }) {
                 <div className='flex gap-2 items-center'>
                     <Image
                         alt='avatar'
-                        height={64}
-                        width={64}
+                        width={24}
+                        height={24}
+                        style={{objectFit: "contain"}}  
                         className='rounded-full'
-                        src="https://avatars.githubusercontent.com/u/85245377?v=4" />
+                        src="/profile.jpeg" />
                     <div className='text-primary-foreground text-xs'>
                         <p className='text-secondary font-bold'>@s96vishal</p>
                         <p>Created 1 month ago</p>
