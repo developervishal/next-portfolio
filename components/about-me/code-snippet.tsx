@@ -4,6 +4,7 @@ import hljs from 'highlight.js/lib/core';
 import javascript from 'highlight.js/lib/languages/javascript';
 import 'highlight.js/styles/base16/equilibrium-dark.css'
 import { MessageCircleMore, Star } from 'lucide-react';
+import Image from 'next/image';
 
 hljs.registerLanguage('javascript', javascript);
 
@@ -19,8 +20,11 @@ function CodeSnippet({ snippet }: { snippet: string }) {
         <div className='mb-2 py-2 mt-5'>
             <div className='flex justify-between items-center px-2'>
                 <div className='flex gap-2 items-center'>
-                    <img
-                        className='h-8 w-8 rounded-full'
+                    <Image
+                        alt='avatar'
+                        height={64}
+                        width={64}
+                        className='rounded-full'
                         src="https://avatars.githubusercontent.com/u/85245377?v=4" />
                     <div className='text-primary-foreground text-xs'>
                         <p className='text-secondary font-bold'>@s96vishal</p>
@@ -28,7 +32,7 @@ function CodeSnippet({ snippet }: { snippet: string }) {
                     </div>
                 </div>
                 <div className='text-primary-foreground text-xs flex flex-row items-center gap-2'>
-                <p className='flex flex-row items-center gap-1'><MessageCircleMore size={16} /><span>details</span></p>
+                    <p className='flex flex-row items-center gap-1'><MessageCircleMore size={16} /><span>details</span></p>
                     <p className='flex flex-row items-center gap-1'><Star size={16} /><span>stars</span></p>
                 </div>
             </div>

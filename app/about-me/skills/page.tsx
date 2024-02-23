@@ -8,9 +8,9 @@ function Page() {
                 return (<>
                     <p className='text-primary-foreground text-sm my-5'>/** {skill.displayName} **/</p>
                     <div className='flex gap-2 flex-nowrap'>
-                        {skill.techStack.map((tech) => {
+                        {skill.techStack.map((tech, index) => {
                             return (
-                                <div className='text-primary-foreground border p-2 text-sm rounded-lg hover:bg-border'>
+                                <div key={index} className='text-primary-foreground border p-2 text-sm rounded-lg hover:bg-border'>
                                     {tech.displayName}
                                 </div>
                             )

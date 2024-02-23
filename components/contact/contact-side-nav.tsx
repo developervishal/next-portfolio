@@ -9,7 +9,7 @@ function ContactSideNav() {
                 <ChevronDown size={18} />
                 contacts
             </div>
-            {contactInfo.map(value => <p className='text-primary-foreground px-5 text-sm my-2'>{value}</p>)}
+            {contactInfo.map((value, index) => <p key={index} className='text-primary-foreground px-5 text-sm my-2'>{value}</p>)}
             <div className='flex items-center text-sm px-5 b border-border border-y py-2 gap-1 text-[#ffffff]'>
                 <ChevronDown size={18} />
                 find-me-also-in
