@@ -11,7 +11,7 @@ export default function Home() {
         <br />
         <p className='text-[#607B96] text-sm mb-2'>// complete the game to continue</p>
         <p className='text-[#607B96] text-sm mb-2'>// you can also see on my github page</p>
-        <p className='text-[#607B96] text-sm'><span className='text-[#4D5BCE]'>const</span> <span className='text-[#43D9AD]'>githubLink</span> = <a className='text-[#E99287]' href='https://github.com/s96vishal' target='_blank'>&quot;https://github.com/s96vishal&quot;</a></p>
+        <p className='text-[#607B96] text-sm'><span className='text-[#4D5BCE]'>const</span> <span className='text-[#43D9AD]'>githubLink</span> = <a className='text-[#E99287]' href='https://github.com/developervishal' target='_blank'>&quot;https://github.com/s96vishal&quot;</a></p>
       </ div>
     </section >
   );
