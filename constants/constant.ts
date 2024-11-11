@@ -71,6 +71,20 @@ export const skills = [
         ]
     },
     {
+        name: 'backendFramework',
+        displayName: 'Backend Framework | Libraries',
+        techStack: [
+            {
+                name: 'node',
+                displayName: 'Nodejs',
+            },
+            {
+                name: 'nest',
+                displayName: 'NestJs',
+            },
+        ]
+    },
+    {
         name: 'cssFramework',
         displayName: 'CSS Framework | Libraries',
         techStack: [
@@ -124,7 +138,7 @@ export const skills = [
     },
     {
         name: 'database',
-        displayName: 'Databases',
+        displayName: 'Databases | Libraries',
         techStack: [
             {
                 name: 'mongodb',
@@ -133,6 +147,10 @@ export const skills = [
             {
                 name: 'sql',
                 displayName: 'MySQL',
+            },
+            {
+                name: 'prisma',
+                displayName: 'Prisma ORM',
             }
         ]
     }

@@ -4,7 +4,7 @@ function Page() {
     return (
         <div className='mb-2 py-2 mt-5 px-5 text-primary-foreground tracking-wide text-sm'>
             <p className="mb-2">
-                I&apos;m a seasoned MERN stack developer with seven years of hands-on experience in crafting robust web applications.
+                I&apos;m a seasoned MERN stack developer with 8 years of hands-on experience in crafting robust web applications.
             </p>
             <p className="mb-2">
                 Throughout my career, I&apos;ve honed my skills in leveraging the power of MongoDB, Express.js, React, and Node.js to develop scalable, high-performance applications.
