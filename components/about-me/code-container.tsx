@@ -25,7 +25,7 @@ function CodeContainer() {
         }
     }`
     return (
-        <section>
+        <section className='h-full overflow-auto'>
             <code className='text-primary-foreground text-sm'>// code snippet showcase</code>
             <CodeSnippet snippet={reactCode} />
             <CodeSnippet snippet={jsCode} />

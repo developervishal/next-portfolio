@@ -9,12 +9,12 @@ export default function RootLayout({
     children: React.ReactNode;
 }>) {
     return (
-        <section className='h-full flex flex-row'>
+        <section className='h-full flex flex-row flex-1 overflow-auto'>
             <SideNav />
             <div className="flex-grow">
                 {children}
             </div>
-            <div className="p-5 w-[550px] flex-none h-full border-l border-border">
+            <div className="p-5 w-[550px] flex-none h-full border-l border-border overflow-x-auto">
             <CodeContainer />
             </div>
         </section>

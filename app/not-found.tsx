@@ -4,7 +4,7 @@ import React from 'react'
 function NotFound() {
   return (
     <section className='flex-1 flex items-center justify-center h-full'>
-      <div className='text-primary-foreground text-2xl text-center'>
+      <div className='text-foreground text-2xl text-center'>
         <Bird size={96} strokeWidth={1} className='m-auto hover:scale-x-[-1]' />
         <code>
           {

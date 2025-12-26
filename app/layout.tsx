@@ -18,10 +18,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={clsx('h-screen bg-background p-7 antialiased', firaCode.className)}>
-        <div className="h-full w-full bg-primary rounded-lg border border-border flex flex-col">
+      <body className={clsx('h-screen overflow-hidden bg-background p-7 antialiased', firaCode.className)}>
+        <div className="h-full w-full bg-primary rounded-lg border border-border flex flex-col overflow-hidden">
           <Header />
-          <div className="flex-grow">
+          <div className="flex-grow overflow-y-auto">
             {children}
           </div>
           <Footer />

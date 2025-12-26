@@ -10,7 +10,7 @@ function Page() {
                     <div className='flex gap-2 flex-nowrap'>
                         {skill.techStack.map((tech, index) => {
                             return (
-                                <div key={index} className='text-primary-foreground border p-2 text-sm rounded-lg hover:bg-border'>
+                                <div key={index} className='text-primary-foreground border border-border p-2 text-sm rounded-lg hover:bg-border transition-colors focus:outline-none focus:ring-2 focus:ring-secondary hover:text-foreground'>
                                     {tech.displayName}
                                 </div>
                             )

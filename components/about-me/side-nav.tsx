@@ -12,7 +12,7 @@ function SideNav() {
     return (
         <div className='w-56 flex-none border-border border-r h-full text-primary-foreground text-sm'
         >
-            <div className='flex items-center text-sm px-5 b border-[#1e2d3d] border-b py-2 gap-1 text-[#ffffff]'><ChevronDown size={18} /><p>personal-info</p></div>
+            <div className='flex items-center text-sm px-5 b border-[#1e2d3d] border-b py-2 gap-1 text-primary-foreground'><ChevronDown size={18} /><p>personal-info</p></div>
             <Link
                 href="/about-me/bio"
 
@@ -42,7 +42,7 @@ function SideNav() {
                 className={clsx('px-5 text-sm my-2 flex items-center gap-2 hover:text-[#ffffff]', { 'text-[#ffffff]': pathName === '/about-me/hobbies' })}>
                 <FolderClosedIcon size={16} fill="#4b5ace" strokeWidth={0} /><p>hobbies</p>
             </Link>
-            <div className='flex items-center text-sm px-5 b border-[#1e2d3d] border-y py-2 mt-5 gap-1 text-[#ffffff]'><ChevronDown size={18} /><p> work-experience</p></div>
+            <div className='flex items-center text-sm px-5 b border-[#1e2d3d] border-y py-2 mt-5 gap-1 text-primary-foreground'><ChevronDown size={18} /><p> work-experience</p></div>
             {workLink.map((link) => {
                 return (
                     <Link
@@ -56,7 +56,7 @@ function SideNav() {
             })
             }
             <Link
-                className={clsx('px-5 text-sm my-2 flex items-center gap-2 hover:text-[#ffffff]', { 'text-[#ffffff]': pathName === '/about-me/resume' })}
+                className={clsx('px-5 text-sm my-2 flex items-center gap-2 hover:text-[#ffffff]', { 'text-primary-foreground': pathName === '/about-me/resume' })}
                 key={`nav-resume`}
                 href='/about-me/resume'>
                 <FileCode2 size={16} />

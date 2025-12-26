@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <section className='flex flex-1 items-center justify-center gap-10 h-full'>
       < div >
-        <h1 className='text-[#E5E9F0] text - [18px] font - mono text - lg'>Hi all&quot; I am</h1>
+        <h1 className='text-[#E5E9F0] text - [18px] font - mono text - lg'>Hi all, I am</h1>
         <h1 className='text-[#E5E9F0] text-[62px] font-mono' > Vishal Shrivastava</h1 >
         <h1 className='text-[#4D5BCE] text-[32px] font-mono'>MERN Stack Developer</h1>
         <br />
